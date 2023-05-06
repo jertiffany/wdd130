@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito:wght@700&family=Quicksand:wght@300&display=swap');
+
+:root {
+    --primary-color: #06837f;
+    --secondary-color: #02cecb;
+
+    --heading-font: 'Carlito', serif;
+    --paragraph-font: 'Quicksand', sans-serif;
+    --nav-link-color:  #f8f7ff;   
+
+
+
+}
+
+body {
+  font-family: var(--paragraph-font);
+  color: var(--primary-color);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1, h2{
+    color: #fdc100;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--secondary-color);
+}
+
+nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+
+.social-media img {
+    text-decoration: none;
+  }
+
+  .hero {
+    position: relative;
+    height: 500px; 
+    overflow: hidden;
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem; 
+    color: #fff; 
+  }
+  
+  .hero article {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5); 
+    color: #fff; 
+    padding: 1rem; 
+  }
+  
+  .hero article img {
+    float: right;
+    margin-left: 1rem; 
+  }
+  
+  
