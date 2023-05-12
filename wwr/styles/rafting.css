@@ -7,15 +7,7 @@
     --heading-font: 'Carlito', serif;
     --paragraph-font: 'Quicksand', sans-serif;
     --nav-link-color:  #f8f7ff;   
-
-
-
 }
-
-/* title{
-  position: absolute;
-  text-align: center;
-} */
 
 body {
   font-family: var(--paragraph-font);
@@ -26,6 +18,7 @@ body {
 
 h1, h2{
     color: #fdc100;
+    /* text-transform: uppercase; */
 }
 
 header {
@@ -37,15 +30,15 @@ header {
 }
 
 nav a {
-  color: var(--primary-color);
+  color: #f8f7ff;
   text-decoration: none;
   margin-right: 20px;
 }
 
 
-.social-media img {
+/* .social-media img {
     text-decoration: none;
-  }
+  } */
 
   .hero {
     position: relative;
@@ -63,6 +56,7 @@ nav a {
     position: absolute;
     top: 50%;
     left: 50%;
+    /* text-align: center; */
     transform: translate(-50%, -50%);
     font-size: 3rem; 
     color: #fff; 
