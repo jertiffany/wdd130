@@ -16,7 +16,11 @@ body {
   margin: 0 auto;
 }
 
-h1, h2{
+h1{
+  color: #fdc100;
+  ;
+}
+h2{
     color: #fdc100;
     /* text-transform: uppercase; */
 }
@@ -36,9 +40,9 @@ nav a {
 }
 
 
-/* .social-media img {
+.social-media img {
     text-decoration: none;
-  } */
+  }
 
   .hero {
     position: relative;
@@ -56,7 +60,6 @@ nav a {
     position: absolute;
     top: 50%;
     left: 50%;
-    /* text-align: center; */
     transform: translate(-50%, -50%);
     font-size: 3rem; 
     color: #fff; 
@@ -64,6 +67,8 @@ nav a {
   
   .hero article {
     position: absolute;
+    /* top: 50%;
+    left: 50%; */
     bottom: 0;
     left: 0;
     width: 100%;
