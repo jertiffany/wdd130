@@ -22,7 +22,6 @@ h1{
 h2{
     text-align: center;
     color: #b58b04;
-    /* text-transform: uppercase; */
 }
 
 header {
@@ -60,6 +59,7 @@ nav a {
   .hero img {
     width: 100%;
     height: auto;
+
   }
   
   .hero h1 {
