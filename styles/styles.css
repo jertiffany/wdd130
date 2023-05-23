@@ -115,15 +115,3 @@ footer{
     align-items: center;
 }
 
-
-/* contact us */
-
-.information{
-    grid-column: 2/3;
-    margin: 1rem;
-}
-
-.map{
-    float: right;
-    
-}

@@ -47,6 +47,9 @@ nav a {
   
 }
 
+/* main{
+  height: auto;
+} */
 
 .social-media img {
     text-decoration: none;
@@ -106,7 +109,7 @@ nav a {
   
   .image-container figcaption {
     margin-top: 10px;
-    text-align: center;
+    text-align: ;
     font-weight: bold;
   }
 
@@ -118,6 +121,68 @@ nav a {
     grid-template-columns: 2fr 1fr;
     margin-top: 60px;
   }
-  
+
+/* Form */
+
+form {
+  max-width: 400px;
+  margin-top: 40px;
+  /* margin: 0 auto; */
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #092f43;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+  /* Map */
+  .contact-information {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    
+  }
+
+  .contact-information p{
+    justify-content: right;
+  }
+
+
   
   
