@@ -47,16 +47,17 @@ nav a {
   
 }
 
-/* main{
-  height: auto;
-} */
-
 .social-media img {
     text-decoration: none;
-  }
+}
 
   .hero {
     position: relative;
+  }
+
+  .heroine img {
+    width: 100%;
+    height: 600px;
   }
   
   .hero img {
@@ -67,7 +68,7 @@ nav a {
   
   .hero h1 {
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 0%;
     right: 0%;
     text-align: center;
@@ -75,12 +76,48 @@ nav a {
     background-color: rgba(0,0,0,0.5); 
     color: #fff; 
   }
+
+  .hero h2 {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    font-size: 2rem; 
+    background-color: rgba(0,0,0,0.5); 
+    color: #fff;
+
+  }
+
+/* Trips page body */
+
+  .heroine h1{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    font-size: 3rem; 
+    color: #fff; 
+
+  }
+
+  .heroine h2 {
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    font-size: 2rem;  
+    color: #fff;
+
+  }
   
   .hero article {
     position: absolute;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     left: 0;
-    top: 30%;
+    top: 40%;
     background-color: rgba(0,0,0,0.5); 
     color: #fff; 
     padding: 20px; 
@@ -93,10 +130,96 @@ nav a {
     margin-top: 10px;
   }
 
+/* home button */
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.signup-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+
+
+  /* trips table */
+  table {
+    padding-top: 100px;
+    width: 100%;
+    margin-top: 50px;
+    border-collapse: collapse;
+  }
+  
+  th {
+    padding: 8px;
+    text-align: left;
+    color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+
+  td {
+    padding: 8px;
+    text-align: left;
+    color: #000000;
+    border-bottom: 1px solid #ddd;
+
+  }
+  
+  th {
+    background-color: #092f43;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  .adventure-section {
+    margin-top: 50px;
+  }
+  
+  .adventure-section p{
+    text-align: center;
+    text-transform: var(--paragraph-font);
+  }
+
   .image-container{
     display: flex;
     flex-direction: row;
     width: 100%;
+  }
+
+  .image-container h3 {
+    text-align: center;
+    text-transform: var(--heading-font);
   }
   
   .image-container figure {
@@ -109,8 +232,9 @@ nav a {
   
   .image-container figcaption {
     margin-top: 10px;
-    text-align: ;
     font-weight: bold;
+    text-align: center;
+    
   }
 
   footer{
